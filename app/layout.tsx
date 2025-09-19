@@ -32,7 +32,7 @@ html {
       </head>
       <body className="min-h-screen bg-background font-sans antialiased">
         <Suspense fallback={null}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {children}
             <Toaster />
           </ThemeProvider>
